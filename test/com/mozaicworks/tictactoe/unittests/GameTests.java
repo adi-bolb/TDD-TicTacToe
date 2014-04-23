@@ -4,7 +4,7 @@ import com.mozaicworks.tictactoe.TicTacToe;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class TicTacToeTests {
+public class GameTests {
 
     @Test
     public void testAdd(){

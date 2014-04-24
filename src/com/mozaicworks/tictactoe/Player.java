@@ -13,6 +13,11 @@ public class Player {
         return new Player("X");
     }
 
+    public static Player O() {
+        return new Player("0");
+    }
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -31,4 +31,9 @@ public class GameTests {
     public void gameHasXAsPlayer(){
         assertEquals(Player.X(), game.getFirstPlayer());
     }
+
+    @Test
+    public void gameHasOAsSecondPlayer(){
+        assertEquals(Player.O(), game.getSecondPlayer());
+    }
 }

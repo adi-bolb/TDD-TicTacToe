@@ -19,4 +19,8 @@ public class Game {
     public Player getFirstPlayer(){
         return Player.X();
     }
+
+    public Player getSecondPlayer(){
+        return Player.O();
+    }
    }

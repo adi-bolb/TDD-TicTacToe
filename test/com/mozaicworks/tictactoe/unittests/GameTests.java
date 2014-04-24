@@ -11,7 +11,6 @@ public class GameTests {
     @Before
     public void setUp() throws Exception {
         game = new Game();
-
     }
 
     @Test
@@ -30,9 +29,6 @@ public class GameTests {
 
     @Test
     public void gameHasXAsPlayer(){
-        game.start();
-
         assertEquals(Player.X(), game.getFirstPlayer());
-
     }
 }

@@ -2,10 +2,12 @@ package com.mozaicworks.tictactoe.acceptancetests;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 public class TicTacToeTests {
 
     @Test
+    @Ignore
     public void XWinsOnColumn(){
         startGame();
         move("X","A1");

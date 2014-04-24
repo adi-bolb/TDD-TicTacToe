@@ -8,7 +8,6 @@ public class GameTests {
 
     @Test
     public void testAdd(){
-        Game game = new Game();
-        assertEquals(2,game.add(1,1));
+    
     }
 }

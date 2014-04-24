@@ -4,8 +4,6 @@
     <list default="true" id="4d7b450a-9b6e-47b8-91c9-0b180cd93a18" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Game.java" afterPath="$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/mozaicworks/tictactoe/unittests/GameTests.java" afterPath="$PROJECT_DIR$/test/com/mozaicworks/tictactoe/unittests/GameTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/mozaicworks/tictactoe/acceptancetests/TicTacToeTests.java" afterPath="$PROJECT_DIR$/test/com/mozaicworks/tictactoe/acceptancetests/TicTacToeTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDD-TicTacToe-JUG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameTests.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/mozaicworks/tictactoe/unittests/GameTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5070422" vertical-offset="0" max-vertical-offset="432">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -50,12 +48,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.44366196" vertical-offset="0" max-vertical-offset="426">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Main.java" />
         <option value="$PROJECT_DIR$/test/com/mozaicworks/tictactoe/unittests/TicTacToeTests.java" />
         <option value="$PROJECT_DIR$/test/com/mozaicworks/tictactoe/acceptancetests/TicTacToeTests.java" />
-        <option value="$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Game.java" />
         <option value="$PROJECT_DIR$/test/com/mozaicworks/tictactoe/unittests/GameTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Game.java" />
       </list>
     </option>
   </component>
@@ -486,12 +487,12 @@
       <workItem from="1398266005223" duration="3466000" />
       <workItem from="1398269614965" duration="2720000" />
       <workItem from="1398324167627" duration="1035000" />
-      <workItem from="1398328381235" duration="3154000" />
+      <workItem from="1398328381235" duration="3346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10375000" />
+    <option name="totallyTimeSpent" value="10567000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -592,7 +593,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="351">
           <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,7 +622,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="351">
           <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +651,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="378">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -665,19 +675,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Game.java">
+    <entry file="file://$PROJECT_DIR$/test/com/mozaicworks/tictactoe/unittests/GameTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/mozaicworks/tictactoe/unittests/GameTests.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mozaicworks/tictactoe/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5070422" vertical-offset="0" max-vertical-offset="432">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.44366196" vertical-offset="0" max-vertical-offset="426">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

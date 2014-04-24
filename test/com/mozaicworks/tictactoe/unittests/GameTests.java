@@ -7,7 +7,10 @@ import static org.junit.Assert.*;
 public class GameTests {
 
     @Test
-    public void testAdd(){
-    
+    public void WhenGameStartsItIsNotOver(){
+        Game game = new Game();
+        game.start();
+
+        assertEquals(false, game.isOver());
     }
 }

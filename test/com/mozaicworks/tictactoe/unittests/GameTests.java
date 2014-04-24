@@ -36,4 +36,11 @@ public class GameTests {
     public void gameHasOAsSecondPlayer(){
         assertEquals(Player.O(), game.getSecondPlayer());
     }
+
+    @Test
+    public void gameDoesNotHaveXAsSecondPlayer(){
+        assertNotEquals(Player.X(), game.getSecondPlayer());
+    }
+    
+
 }

@@ -41,6 +41,4 @@ public class GameTests {
     public void gameDoesNotHaveXAsSecondPlayer(){
         assertNotEquals(Player.X(), game.getSecondPlayer());
     }
-    
-
 }

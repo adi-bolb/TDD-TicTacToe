@@ -1,31 +1,43 @@
 package com.mozaicworks.tictactoe.acceptancetests;
 
+import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Ignore;
+import com.mozaicworks.tictactoe.*;
 
 public class TicTacToeTests {
 
+    Game game;
+
+    @Before
+    public void setUp() throws Exception {
+        game = new Game();
+    }
+
+    // TODO: Make this test pass by implementing the methods in
+    // the Game class
     @Test
-    @Ignore
     public void XWinsOnColumn(){
         startGame();
-        move("X","A1");
-        move("0","A2");
-        move("X","B1");
-        move("0","B2");
-        move("X","C1");
+        move(Player.X(),"A1");
+        move(Player.O(),"A2");
+        move(Player.X(),"B1");
+        move(Player.O(),"B2");
+        move(Player.X(),"C1");
 
         assertXWon();
     }
 
-    void startGame(){
+    public void startGame(){
+        game.start();
     }
 
-    void move(String player, String move){
+    public void move(Player player, String move){
+        game.move(player, move);
     }
 
-    void assertXWon(){
-        assertEquals(true, false);
+    public void assertXWon(){
+        assertEquals(Player.X(), game.getWinner());
     }
 }
